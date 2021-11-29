@@ -29,8 +29,6 @@ Customers API
 | Delete | DEL | {{base_url}}/customer/id | Delete customer |
 | Update | PUT | {{base_url}}/customer/id | Update customer for input id |
 
-
-## API Reference Table
 Accounts API
 | Name | HTTP Method | Parameter | Desciption | 
 |------|-------------|-----------|------------|
@@ -40,8 +38,6 @@ Accounts API
 | Delete | DEL | {{base_url}}/accounts/id | Delete account |
 | Update | PUT | {{base_url}}/accounts/id| Update account for input id |
 
-
-## API Reference Table
 Bankers API
 | Name | HTTP Method | Parameter | Desciption | 
 |------|-------------|-----------|------------|
@@ -51,8 +47,6 @@ Bankers API
 | Delete | DEL | {{base_url}}/bankers/id  | Delete banker |
 | Update | PUT | {{base_url}}/bankers/id  | Update banker for input id |
 
-
-## API Reference Table
 Branch API
 | Name | HTTP Method | Parameter | Desciption | 
 |------|-------------|-----------|------------|
