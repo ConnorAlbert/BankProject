@@ -1,2 +1,75 @@
-# BankProject
+# Bank Database
+
+This project includes:
+
+* Enity Relationship Diagram
+
+* Request using Insomnia
+
+* Creation of database using models.py
+
+* Pg_dump.Sql
+
+## Technologies used to develop the project
+
+* Docker
+* PostgreSQL
+* pgadmin 4
+* Insomnia
+* Flask SQAlchemy
+* venv
+
+## API Reference Table
+Customers API
+| Name | HTTP Method | Parameter | Desciption | 
+|------|-------------|-----------|------------|
+| Index| {{base_url}}/customers | Show all records in customers table. |
+| Show | {{base_url}}/customers/id | show customer for input id |
+| Create | {{base_url}}/customers | Create customer |
+| Delete | {{base_url}}/customer/id | Delete customer |
+| Update | {{base_url}}/customer/id | Update customer for input id |
+
+
+## API Reference Table
+Accounts API
+| Name | HTTP Method | Parameter | Desciption | 
+|------|-------------|-----------|------------|
+| Index| {{base_url}}/accounts | Show all records in accounts table. |
+| Show | {{base_url}}/accounts/id | show account for input id |
+| Create | {{base_url}}/accounts | Create account |
+| Delete | {{base_url}}/accounts/id | Delete account |
+| Update | {{base_url}}/accounts/id| Update account for input id |
+
+
+## API Reference Table
+Bankers API
+| Name | HTTP Method | Parameter | Desciption | 
+|------|-------------|-----------|------------|
+| Index| {{base_url}}/bankers | Show all records in bankers table. |
+| Show | {{base_url}}/bankers/id | show banker for input id |
+| Create | {{base_url}}/bankers | Create banker |
+| Delete | {{base_url}}/bankers/id  | Delete banker |
+| Update | {{base_url}}/bankers/id  | Update banker for input id |
+
+
+## API Reference Table
+Branch API
+| Name | HTTP Method | Parameter | Desciption | 
+|------|-------------|-----------|------------|
+| Index| {{base_url}}/branch | Show all records in branch table. |
+| Show | {{base_url}}/branch/id | show branch for input id |
+| Create | {{base_url}}/branch | Create branch |
+| Delete | {{base_url}}/branch/id | Delete branch |
+| Update | {{base_url}}/branch/id | Update branch for input id |
+
+1. I created my database and realized when i started inserting data that i wanted to redesign my database and went from there.
+
+2. I went with ORM to further myself in that aspect.
+
+
+
+
+
+
+
  
