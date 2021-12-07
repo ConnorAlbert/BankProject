@@ -56,9 +56,7 @@ Branch API
 | Delete | DEL | {{base_url}}/branch/id | Delete branch |
 | Update | PUT | {{base_url}}/branch/id | Update branch for input id |
 
-1. I created my database and realized when i started inserting data that i wanted to redesign my database and went from there.
 
-2. I went with ORM to further myself in that aspect.
 
 
 
